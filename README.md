@@ -80,7 +80,7 @@ README.md      - Project summary and setup instructions
 
 Tommy Baratta  
 Allison Brown  
-Andrea Safadi
+Andrea Safadi  
 Vesper Nguyen  
 Zander Picon  
 
