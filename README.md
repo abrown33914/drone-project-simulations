@@ -1,6 +1,6 @@
 # Drone Security Simulation Project
 
-This repository contains scripts and documentation for a project in **Intro to Computer Security**. Our focus is on exploring vulnerabilities in drone communication systems—specifically RF jamming—and evaluating software-based countermeasures such as frequency hopping and automated drone behaviors during signal loss.
+This repository contains scripts and documentation for a project in **Intro to Computer Security**. Our focus is on exploring vulnerabilities in drone communication systems, specifically RF jamming, and evaluating software-based countermeasures such as frequency hopping and automated drone behaviors during signal loss.
 
 ---
 
