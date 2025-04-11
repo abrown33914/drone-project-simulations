@@ -46,17 +46,23 @@ takeoff 5
 
 This simulation demonstrates what happens when a drone loses communication mid-flight due to a jamming-like event.
 
+[add visuals]
+
 ---
 
 ### Simulation 2: Frequency Hopping (Defense Script)
 
 This simulation uses a basic frequency hopping script to simulate detection of jamming and a shift to a new communication “channel.”
 
+[add visuals]
+
 ---
 
 ### Simulation 3: Drone Response to Signal Loss
 
 In this scenario, we configure the drone to detect communication failure and automatically respond by switching flight modes (e.g., LAND).
+
+[add visuals]
 
 ---
 
@@ -74,9 +80,9 @@ README.md      - Project summary and setup instructions
 
 Tommy Baratta  
 Allison Brown  
-Zander Picon  
-Vesper Nguyen  
 Andrea Safadi
+Vesper Nguyen  
+Zander Picon  
 
 ---
 
