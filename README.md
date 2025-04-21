@@ -58,11 +58,8 @@ A jamming event is simulated by pausing SITL mid-flight. The drone loses communi
 
 A custom frequency hopping script switches communication channels every few seconds. Jamming attempts are scheduled on specific channels. If the drone avoids the jammed channel in time, the attack is canceled.
 
-**Hopping Log**  
-<img src="images/sim2_log.png" width="300"/>
-
-**Drone Surviving Jam**  
-<img src="images/sim2_safe.png" width="300"/>
+**Hopping Log**                                       **Drone Surviving Jam**  
+<img src="images/sim2_log.png" width="400"/>          <img src="images/sim2_safe.png" width="300"/>
 
 ---
 
@@ -71,7 +68,7 @@ A custom frequency hopping script switches communication channels every few seco
 A custom script monitors MAVLink heartbeats. If connection is lost for 5 seconds, it issues a `LAND` command to ensure the drone safely descends without crashing.
 
 **Script Detects Signal Loss**  
-<img src="images/sim3_warning.png" width="300"/>
+<img src="images/sim3_warning.png" width="500"/>
 
 **Drone Landing After Attack**  
 <img src="images/sim3_landing.png" width="300"/> <img src="images/sim3_landing2.png" width="300"/>
