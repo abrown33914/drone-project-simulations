@@ -59,6 +59,7 @@ A jamming event is simulated by pausing SITL mid-flight. The drone loses communi
 A custom frequency hopping script switches communication channels every few seconds. Jamming attempts are scheduled on specific channels. If the drone avoids the jammed channel in time, the attack is canceled.
 
 **Hopping Log**
+
 <img src="images/sim2_log.png" width="400"/>
 
 **Drone Surviving Jam**  
