@@ -47,10 +47,10 @@ takeoff 5
 A jamming event is simulated by pausing SITL mid-flight. The drone loses communication and becomes unresponsive.
 
 **Before Jam**  
-![Sim 1 - Before](images/sim1_before.png)
+<img src="images/sim1_before.png" width="300"/>
 
 **After Jam**  
-![Sim 1 - After](images/sim1_after.png)
+<img src="images/sim1_after.png" width="300"/>
 
 ---
 
@@ -59,22 +59,22 @@ A jamming event is simulated by pausing SITL mid-flight. The drone loses communi
 A custom frequency hopping script switches communication channels every few seconds. Jamming attempts are scheduled on specific channels. If the drone avoids the jammed channel in time, the attack is canceled.
 
 **Hopping Log**  
-![Sim 2 - Console](images/sim2_log.png)
+<img src="images/sim2_log.png" width="300"/>
 
 **Drone Surviving Jam**  
-![Sim 2 - Survived](images/sim2_safe.png)
+<img src="images/sim2_safe.png" width="300"/>
 
 ---
 
-### 🧠 Simulation 3: Drone Response to Signal Loss (Behavior-Based)
+### Simulation 3: Drone Response to Signal Loss (Behavior-Based)
 
 A custom script monitors MAVLink heartbeats. If connection is lost for 5 seconds, it issues a `LAND` command to ensure the drone safely descends without crashing.
 
 **Script Detects Signal Loss**  
-![Sim 3 - Warning](images/sim3_warning.png)
+<img src="images/sim3_warning.png" width="300"/>
 
 **Drone Landing After Attack**  
-![Sim 3 - Landing1](images/sim3_landing.png) ![Sim 3 - Landing2](images/sim3_landing2.png)
+<img src="images/sim3_landing.png" width="300"/> <img src="images/sim3_landing2.png" width="300"/>
 
 ---
 
