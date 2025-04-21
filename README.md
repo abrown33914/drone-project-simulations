@@ -44,25 +44,37 @@ takeoff 5
 
 ### Simulation 1: RF Jamming Attack (No Defense)
 
-This simulation demonstrates what happens when a drone loses communication mid-flight due to a jamming-like event.
+A jamming event is simulated by pausing SITL mid-flight. The drone loses communication and becomes unresponsive.
 
-[add visuals]
+**Before Jam**  
+![Sim 1 - Before](images/sim1_before.png)
+
+**After Jam**  
+![Sim 1 - After](images/sim1_after.png)
 
 ---
 
 ### Simulation 2: Frequency Hopping (Defense Script)
 
-This simulation uses a basic frequency hopping script to simulate detection of jamming and a shift to a new communication “channel.”
+A custom frequency hopping script switches communication channels every few seconds. Jamming attempts are scheduled on specific channels. If the drone avoids the jammed channel in time, the attack is canceled.
 
-[add visuals]
+**Hopping Log**  
+![Sim 2 - Console](images/sim2_log.png)
+
+**Drone Surviving Jam**  
+![Sim 2 - Survived](images/sim2_safe.png)
 
 ---
 
-### Simulation 3: Drone Response to Signal Loss
+### 🧠 Simulation 3: Drone Response to Signal Loss (Behavior-Based)
 
-In this scenario, we configure the drone to detect communication failure and automatically respond by switching flight modes (e.g., LAND).
+A custom script monitors MAVLink heartbeats. If connection is lost for 5 seconds, it issues a `LAND` command to ensure the drone safely descends without crashing.
 
-[add visuals]
+**Script Detects Signal Loss**  
+![Sim 3 - Warning](images/sim3_warning.png)
+
+**Drone Landing After Attack**  
+![Sim 3 - Landing1](images/sim3_landing.png) ![Sim 3 - Landing2](images/sim3_landing2.png)
 
 ---
 
